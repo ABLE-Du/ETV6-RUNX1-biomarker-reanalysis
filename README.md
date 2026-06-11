@@ -29,6 +29,11 @@ signal.
 - `reproducibility/`: source versions, execution instructions, and one-command runner.
 - `docs/`: audit, provenance, and hard-fix summaries.
 
+The Scientific Reports v8 manuscript-finalization changes are summarized in
+[`docs/SCIENTIFIC_REPORTS_V8_IMPORTANT_POINTS_SUMMARY.md`](docs/SCIENTIFIC_REPORTS_V8_IMPORTANT_POINTS_SUMMARY.md).
+The repository excludes manuscript DOCX files and individual-level
+single-center data by design.
+
 ## Data privacy
 
 This repository intentionally excludes:
