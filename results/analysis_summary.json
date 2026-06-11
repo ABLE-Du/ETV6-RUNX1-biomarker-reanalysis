@@ -1,0 +1,65 @@
+{
+  "random_seed": 20260611,
+  "multiple_testing": {
+    "adverse_families_with_bh_significant_results": 0,
+    "target_subtype_previous_bh": 4285
+  },
+  "karyotype_unsupervised": {
+    "n": 141,
+    "events": 24,
+    "input_features": 36,
+    "best_k": 4,
+    "best_silhouette": 0.3309362374695437,
+    "best_k_event_permutation_p": 1.0,
+    "best_k_event_holm_fwer": 1.0,
+    "best_k_logrank_p": 0.941872196543169,
+    "stability_median_ari": 0.11395984541427107,
+    "stability_iqr_low": 0.11395984541427107,
+    "stability_iqr_high": 0.45433330325764143,
+    "pc1_explained": 0.14628339291501008,
+    "pc2_explained": 0.08830920943025243
+  },
+  "primary_expression": {
+    "positive_patients": 11,
+    "negative_patients": 99,
+    "genes_tested": 23590,
+    "bh_significant": 1346,
+    "by_significant": 485,
+    "holm_significant": 140,
+    "slc7a11_delta_z": 0.6627616161616161,
+    "slc7a11_p": 0.000906798252198665,
+    "slc7a11_bh_fdr": 0.02293426820876278,
+    "slc7a11_by_fdr": 0.24415397725796043,
+    "slc7a11_holm_fwer": 1.0
+  },
+  "expression_ml": {
+    "pca_pc1_explained": 0.16983355147001322,
+    "pca_pc2_explained": 0.0788150235997292,
+    "pca_label_separation_stat": 0.3760040512237432,
+    "pca_label_permutation_p": 0.24135172965406917,
+    "nested_cv_auc_mean": 0.9932543859649122,
+    "nested_cv_auc_min": 0.9894736842105264,
+    "nested_cv_auc_max": 1.0,
+    "nested_cv_balanced_accuracy_mean": 0.9847280701754386,
+    "nested_pipeline_observed_mean_fold_auc": 0.9949999999999999,
+    "nested_pipeline_permutations": 200,
+    "nested_pipeline_permutation_p": 0.004975124378109453,
+    "sample_type_fisher_p": 0.7249413851520277,
+    "classifier_genes_eligible": 23590
+  },
+  "survival_ml": {
+    "n": 141,
+    "events": 24,
+    "clinical_mean_c_index": 0.5661865217616707,
+    "gain16_mean_c_index": 0.5904856952953325,
+    "karyotype_mean_c_index": 0.5205793060236215,
+    "gain16_mean_delta": 0.0242991735336617,
+    "gain16_median_delta": 0.0,
+    "gain16_delta_min": -0.2916666666666667,
+    "gain16_delta_max": 0.1707317073170732,
+    "karyotype_mean_delta": -0.04560721573804932,
+    "karyotype_median_delta": -0.05327868852459017,
+    "karyotype_delta_min": -0.332,
+    "karyotype_delta_max": 0.30833333333333335
+  }
+}

@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+*.log
+~$*
+
+# Never publish local clinical source data or manuscripts.
+single_center_data_cleaning/
+*cleaned_full*
+*cleaned_pseudonymized*
+*analytic_cohort_pseudonymized*
+*registry_summary_pseudonymized*
+*.docx
+*.xlsx
+
+# Local public-data downloads are large and retain source-specific terms.
+public_reanalysis/
