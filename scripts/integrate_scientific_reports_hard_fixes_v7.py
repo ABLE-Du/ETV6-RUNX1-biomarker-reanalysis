@@ -370,7 +370,7 @@ def main() -> None:
     replace_paragraph(
         document,
         "Data sharing:",
-        "Data availability. Public source data are available from the cBioPortal DataHub TARGET Phase II study, the NOPHO/Oksa Zenodo records, and official DepMap Public releases, with source versions and commit identifiers listed in the accompanying reproducibility package. Reanalysis scripts use explicit source-root and workspace-root parameters rather than machine-specific paths. A machine-readable input-file checksum manifest, software-environment record, sample-level public-data derivation tables, aggregate single-center results, and figure-generation code accompany this revision. The final versioned public repository DOI/URL must be inserted before submission. De-identified individual-level single-center clinical data are not publicly released because of privacy and institutional-governance requirements.",
+        "Data availability. Public source data are available from the cBioPortal DataHub TARGET Phase II study, the NOPHO/Oksa Zenodo records, and official DepMap Public releases, with source versions and commit identifiers listed in the reproducibility repository at https://github.com/ABLE-Du/ETV6-RUNX1-biomarker-reanalysis. Reanalysis scripts use explicit source-root and workspace-root parameters rather than machine-specific paths. The repository includes a machine-readable input-file checksum manifest, software-environment record, public-data-derived result tables, aggregate-only single-center results, and figure-generation code. De-identified individual-level single-center clinical data are not publicly released because of privacy and institutional-governance requirements.",
     )
 
     replace_paragraph(

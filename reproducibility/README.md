@@ -45,6 +45,8 @@ The default permutation count is 200. For a smoke test only:
 
 ## Public repository
 
-Before submission, publish this project as a versioned GitHub release and
-archive that release in Zenodo. Replace the manuscript placeholder with the
-resulting repository URL and DOI.
+Public GitHub repository:
+https://github.com/ABLE-Du/ETV6-RUNX1-biomarker-reanalysis
+
+Before submission, create a versioned GitHub release and archive that release
+in Zenodo if a persistent DOI is required.
