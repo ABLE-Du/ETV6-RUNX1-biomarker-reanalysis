@@ -1,0 +1,86 @@
+{
+  "analysis_label": "official-workflow-compatible GRCh37/hg19 reanalysis",
+  "coordinate_build": "GRCh37/hg19",
+  "source_root": "user-supplied NOPHO raw root; files listed by relative_path in input_cns_manifest.csv",
+  "input_cns_files": 262,
+  "input_manifest": "input_cns_manifest.csv",
+  "blacklist": "hg19-blacklist.v2.bed.gz",
+  "blacklist_sha256": "1a4ba636f791936ab8952cb068f496ccbd55ec4753539547c5d3d055ed00642a",
+  "blacklist_source": "https://raw.githubusercontent.com/Boyle-Lab/Blacklist/master/lists/hg19-blacklist.v2.bed.gz",
+  "official_code_commit": "48607138ce0df2950d3ffc0f304246c38acf023f",
+  "official_parameters": {
+    "deletion_log2_lte": -0.4,
+    "gain_log2_gte": 0.3,
+    "merge_same_type_gap_lt_bp": 10000,
+    "minimum_event_size_bp": 1000000,
+    "minimum_event_size_inclusive": true,
+    "discard_if_single_blacklist_interval_overlap_fraction_gte": 0.5,
+    "chromosomes": "autosomes 1-22"
+  },
+  "gene_coordinates": {
+    "source": "Ensembl GRCh37 REST API",
+    "retrieved": "2026-06-12",
+    "genes": {
+      "FOXO3": [
+        "6",
+        108881038,
+        109005977
+      ],
+      "TNFAIP3": [
+        "6",
+        138188351,
+        138204449
+      ],
+      "HACE1": [
+        "6",
+        105175968,
+        105307794
+      ],
+      "GRIK2": [
+        "6",
+        101846664,
+        102517958
+      ],
+      "EPHA7": [
+        "6",
+        93949738,
+        94129265
+      ],
+      "MYB": [
+        "6",
+        135502453,
+        135540311
+      ],
+      "PRDM1": [
+        "6",
+        106534195,
+        106557814
+      ],
+      "BACH2": [
+        "6",
+        90636248,
+        91006627
+      ],
+      "LATS1": [
+        "6",
+        149979289,
+        150039392
+      ],
+      "CDKN2A": [
+        "9",
+        21967751,
+        21995300
+      ],
+      "PAX5": [
+        "9",
+        36833272,
+        37034103
+      ],
+      "IKZF1": [
+        "7",
+        50343720,
+        50472799
+      ]
+    }
+  }
+}

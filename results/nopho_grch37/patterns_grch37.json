@@ -1,0 +1,11 @@
+{
+  "total_samples": 262,
+  "del6q_grch37_ge1Mb": 62,
+  "FOXO3_deleted_grch37_ge1Mb": 42,
+  "TNFAIP3_deleted_grch37_ge1Mb": 26,
+  "FOXO3_and_TNFAIP3": 25,
+  "FOXO3_not_TNFAIP3": 17,
+  "TNFAIP3_not_FOXO3": 1,
+  "FOXO3_only_among_9_evaluated_6q_genes": 5,
+  "del6q_involving_FOXO3": 42
+}

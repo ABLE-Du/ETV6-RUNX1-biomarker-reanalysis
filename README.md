@@ -18,19 +18,33 @@ signal.
 - Clinical model plus chromosome 16 gain: mean outer-fold C-index `0.590`.
 - Paired +16 increment: mean `+0.024`, median `0.000`, range `-0.292` to `+0.171`.
 - Primary-only RNA classifier: mean nested-CV outer-fold AUC `0.993`.
-- Complete nested-pipeline RNA label-permutation test: `P=0.00498` using 200 permutations.
+- Complete nested-pipeline RNA label-permutation test: `P<=0.00498` using 200 permutations
+  (the minimum attainable value).
+
+## Corrected NOPHO GRCh37 sensitivity result
+
+The public NOPHO CNVkit segments were rerun in GRCh37/hg19 coordinates using
+the official thresholds and event rules. The workflow-compatible analysis
+identified 62 cases with a chromosome 6 deletion of at least 1 Mb, including
+42 with FOXO3 overlap and 26 with TNFAIP3 overlap. CDKN2A-del6q co-occurrence
+was nominal (`P=0.0244`) but not significant after correction across the three
+co-occurrence tests (`BH-FDR=0.0733`). The exact study-specific modified
+blacklist was not publicly distributed, so these results are not described as
+an exact reproduction.
 
 ## Repository contents
 
 - `scripts/`: corrected analysis, figure-generation, and manuscript-integration code.
 - `results/tables/`: public-data-derived statistical and machine-learning outputs.
+- `results/nopho_grch37/`: corrected NOPHO GRCh37 result tables, provenance,
+  input manifest, and sensitivity figure.
 - `results/figures/`: public-data robustness figures in PNG, PDF, and SVG formats.
 - `single_center_aggregate/`: aggregate-only single-center statistics.
 - `reproducibility/`: source versions, execution instructions, and one-command runner.
 - `docs/`: audit, provenance, and hard-fix summaries.
 
-The Scientific Reports v8 manuscript-finalization changes are summarized in
-[`docs/SCIENTIFIC_REPORTS_V8_IMPORTANT_POINTS_SUMMARY.md`](docs/SCIENTIFIC_REPORTS_V8_IMPORTANT_POINTS_SUMMARY.md).
+The Scientific Reports v9 hard fixes are summarized in
+[`docs/SCIENTIFIC_REPORTS_V9_HARD_FIXES_SUMMARY.md`](docs/SCIENTIFIC_REPORTS_V9_HARD_FIXES_SUMMARY.md).
 The repository excludes manuscript DOCX files and individual-level
 single-center data by design.
 
