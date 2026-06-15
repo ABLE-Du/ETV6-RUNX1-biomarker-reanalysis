@@ -1,0 +1,9 @@
+variable,uniform_definition,handling
+karyotype_evaluable,"Non-empty reported karyotype without an explicit failed, unknown, or no-metaphase statement","Unevaluable reports are missing, never score zero"
+abnormal_report_token_n,Count of all regex-detected structural and numerical abnormality tokens in the complete reported string,"Includes reported t(12;21) and repeated tokens across clones; report-burden measure, not unique-lesion count"
+gain16,Whole-chromosome +16 token,Two candidate-score points
+abnormal_report_tokens_ge3,abnormal_report_token_n >=3,One candidate-score point; not labelled complex karyotype
+del6q,Deletion token involving chromosome 6q,One candidate-score point
+candidate_score,2*gain16 + abnormal_report_tokens_ge3 + del6q,Range 0-4; fixed after TARGET-informed construction
+candidate_score_high,candidate_score >=1,Any component qualifies; exploratory binary threshold
+log_mrd,log10(cohort-specific MRD percentage + 0.0001),"TARGET Day 29 and historical Day 19 analyzed separately, never pooled"

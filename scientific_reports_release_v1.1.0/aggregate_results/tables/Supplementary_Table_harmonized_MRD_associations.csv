@@ -1,0 +1,17 @@
+cohort,outcome,exposure,n,outcomes,exposed_n,exposed_outcomes,conditional_odds_ratio,exact_ci_low,exact_ci_high,fisher_p
+TARGET,mrd_delayed,candidate_score_high,144,20,75,13,1.8493265734154956,0.6345909193550272,5.864370622496701,0.2370269408095203
+TARGET,mrd_delayed,gain16,144,20,7,0,0.0,0.0,4.404300375245179,0.5934627624506011
+TARGET,mrd_delayed,abnormal_report_tokens_ge3,144,20,68,13,2.316235166859286,0.794341177192719,7.3525347630828435,0.09679526346270241
+TARGET,mrd_delayed,del6q,144,20,19,3,1.1896619099836252,0.20113924462854038,4.840359259438093,0.7293358552085858
+Single-center historical,mrd_delayed,candidate_score_high,56,33,2,1,0.692218655243172,0.008496785683047086,56.39387464163884,1.0
+Single-center historical,mrd_delayed,gain16,56,33,0,0,,0.0,inf,1.0
+Single-center historical,mrd_delayed,abnormal_report_tokens_ge3,56,33,2,1,0.692218655243172,0.008496785683047086,56.39387464163884,1.0
+Single-center historical,mrd_delayed,del6q,56,33,1,1,inf,0.017871017870993072,inf,1.0
+Single-center contemporary,mrd_delayed,candidate_score_high,32,17,2,2,inf,0.1667767805829078,inf,0.4858870967741936
+Single-center contemporary,mrd_delayed,gain16,32,17,0,0,,0.0,inf,1.0
+Single-center contemporary,mrd_delayed,abnormal_report_tokens_ge3,32,17,2,2,inf,0.1667767805829078,inf,0.4858870967741936
+Single-center contemporary,mrd_delayed,del6q,32,17,0,0,,0.0,inf,1.0
+Single-center contemporary,d46_persistent,candidate_score_high,34,1,2,1,inf,0.4102564102564095,inf,0.0588235294117647
+Single-center contemporary,d46_persistent,gain16,34,1,0,0,,0.0,inf,1.0
+Single-center contemporary,d46_persistent,abnormal_report_tokens_ge3,34,1,2,1,inf,0.4102564102564095,inf,0.0588235294117647
+Single-center contemporary,d46_persistent,del6q,34,1,0,0,,0.0,inf,1.0
