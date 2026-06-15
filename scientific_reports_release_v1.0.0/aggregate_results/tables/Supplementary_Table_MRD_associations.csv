@@ -1,0 +1,17 @@
+cohort,exposure,outcome,n,outcomes,exposed_n,exposed_outcomes,unexposed_outcomes,odds_ratio,fisher_p,auc
+TARGET,gain16,mrd_delayed,144,20,7,0,20,0.0,0.5934627624506011,0.4717741935483871
+TARGET,high_abnormal_burden,mrd_delayed,144,20,69,13,7,2.2551020408163267,0.14685122352735774,0.5991935483870967
+TARGET,del6q,mrd_delayed,144,20,19,3,17,1.1911764705882353,0.7293358552085858,0.510483870967742
+TARGET,grs_high,mrd_delayed,144,20,76,13,7,1.7981859410430838,0.33485586415800583,0.5709677419354839
+single_center_contemporary,gain16,d19_delayed,32,17,0,0,17,,1.0,0.5
+single_center_contemporary,high_abnormal_burden,d19_delayed,32,17,2,2,15,inf,0.4858870967741936,0.5588235294117647
+single_center_contemporary,del6q,d19_delayed,32,17,0,0,17,,1.0,0.5
+single_center_contemporary,grs_high,d19_delayed,32,17,2,2,15,inf,0.4858870967741936,0.5588235294117647
+single_center_contemporary,gain16,d46_persistent,34,1,0,0,1,,1.0,0.5
+single_center_contemporary,high_abnormal_burden,d46_persistent,34,1,2,1,0,inf,0.0588235294117647,0.9848484848484849
+single_center_contemporary,del6q,d46_persistent,34,1,0,0,1,,1.0,0.5
+single_center_contemporary,grs_high,d46_persistent,34,1,2,1,0,inf,0.0588235294117647,0.9848484848484849
+single_center_historical,gain16,d19_delayed,56,33,0,0,33,,1.0,0.5
+single_center_historical,high_abnormal_burden,d19_delayed,56,33,2,1,32,0.6875,1.0,0.49341238471673254
+single_center_historical,del6q,d19_delayed,56,33,1,1,32,inf,1.0,0.5151515151515151
+single_center_historical,grs_high,d19_delayed,56,33,3,2,31,1.4193548387096775,1.0,0.5085638998682477

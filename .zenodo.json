@@ -1,0 +1,31 @@
+{
+  "title": "ETV6::RUNX1 biomarker reanalysis: Scientific Reports reproducibility release",
+  "description": "Code, aggregate non-identifiable results, figures, frozen analysis plan, and reference-verification materials supporting a cross-cohort transportability and candidate cytogenetic-score feasibility study in pediatric ETV6::RUNX1-positive acute lymphoblastic leukemia.",
+  "creators": [
+    {
+      "name": "Du, Chengkan",
+      "affiliation": "Shanghai Children's Hospital, Shanghai Jiao Tong University School of Medicine"
+    },
+    {
+      "name": "Weng, WenHao",
+      "affiliation": "Shanghai Children's Hospital, Shanghai Jiao Tong University School of Medicine"
+    }
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "keywords": [
+    "ETV6::RUNX1",
+    "pediatric B-ALL",
+    "event-free survival",
+    "cytogenetic risk",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ABLE-Du/ETV6-RUNX1-biomarker-reanalysis",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility release, please cite the repository and associated manuscript."
+title: "ETV6::RUNX1 biomarker reanalysis: Scientific Reports reproducibility release"
+version: 1.0.0
+date-released: 2026-06-15
+authors:
+  - family-names: Du
+    given-names: Chengkan
+  - family-names: Weng
+    given-names: WenHao
+repository-code: "https://github.com/ABLE-Du/ETV6-RUNX1-biomarker-reanalysis"
+license: MIT
+keywords:
+  - ETV6::RUNX1
+  - pediatric B-ALL
+  - event-free survival
+  - cytogenetic risk
+  - reproducibility

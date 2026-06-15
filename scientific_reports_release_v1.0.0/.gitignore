@@ -1,0 +1,13 @@
+# Never commit local or patient-level analysis inputs/outputs.
+analysis_code/inputs/
+analysis_code/results/
+**/*patient_level*.csv
+**/*single_center*.csv
+**/*.xlsx
+**/*.xls
+**/*.sav
+**/*.dta
+**/*.db
+**/*.sqlite
+__pycache__/
+*.pyc
