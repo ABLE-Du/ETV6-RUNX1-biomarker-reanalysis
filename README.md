@@ -79,3 +79,13 @@ The analysis is exploratory and internally validated. It does not support
 clinical risk reassignment or targeted-therapy selection. See
 [`results/SCIENTIFIC_REPORTS_ROBUSTNESS_ML_REPORT.md`](results/SCIENTIFIC_REPORTS_ROBUSTNESS_ML_REPORT.md)
 for the full interpretation.
+
+## Archived reproducibility release
+
+- GitHub Release v1.0.0: https://github.com/ABLE-Du/ETV6-RUNX1-biomarker-reanalysis/releases/tag/v1.0.0
+- Version DOI: https://doi.org/10.5281/zenodo.20697294
+- Concept DOI: https://doi.org/10.5281/zenodo.20697293
+
+The version DOI identifies the exact Scientific Reports reproducibility
+release. The concept DOI resolves to the latest archived repository version.
+

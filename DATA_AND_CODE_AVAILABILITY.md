@@ -4,6 +4,14 @@ The public reproducibility repository is available at:
 
 https://github.com/ABLE-Du/ETV6-RUNX1-biomarker-reanalysis
 
+The immutable version 1.0.0 archive is available at:
+
+https://doi.org/10.5281/zenodo.20697294
+
+The repository concept DOI, which resolves to the latest archived version, is:
+
+https://doi.org/10.5281/zenodo.20697293
+
 The repository contains final analysis scripts, locked score specifications,
 aggregate non-identifiable result tables, figures, public-input provenance, and
 software requirements. Individual-level single-center clinical data are not
@@ -20,5 +28,3 @@ Verified public source identifiers include:
 
 The NOPHO identifiers are third-party dataset DOIs and are not the DOI for
 this code release.
-
-Zenodo DOI: pending publication and archival of GitHub Release `v1.0.0`.
