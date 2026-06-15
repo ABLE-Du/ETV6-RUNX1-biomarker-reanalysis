@@ -89,3 +89,13 @@ for the full interpretation.
 The version DOI identifies the exact Scientific Reports reproducibility
 release. The concept DOI resolves to the latest archived repository version.
 
+## Harmonized reanalysis release
+
+- GitHub Release v1.1.0: https://github.com/ABLE-Du/ETV6-RUNX1-biomarker-reanalysis/releases/tag/v1.1.0
+- Version DOI: https://doi.org/10.5281/zenodo.20699023
+- Concept DOI: https://doi.org/10.5281/zenodo.20697293
+
+Version 1.1.0 contains the corrected harmonized raw-karyotype analysis and
+matched-sample C-index assessment. Version 1.0.0 remains immutable but is
+superseded for the revised manuscript results.
+

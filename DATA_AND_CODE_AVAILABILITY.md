@@ -21,6 +21,6 @@ Verified public source identifiers include:
 The NOPHO identifiers are third-party dataset DOIs and are not the DOI for
 this code release.
 
-Concept DOI: https://doi.org/10.5281/zenodo.20697293. The immutable v1.0.0
-version DOI is https://doi.org/10.5281/zenodo.20697294. The v1.1.0 version DOI
-is pending GitHub release archival.
+Harmonized v1.1.0 DOI: https://doi.org/10.5281/zenodo.20699023. Concept DOI:
+https://doi.org/10.5281/zenodo.20697293. The immutable but superseded v1.0.0
+version DOI is https://doi.org/10.5281/zenodo.20697294.
