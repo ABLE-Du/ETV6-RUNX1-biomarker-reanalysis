@@ -99,3 +99,14 @@ Version 1.1.0 contains the corrected harmonized raw-karyotype analysis and
 matched-sample C-index assessment. Version 1.0.0 remains immutable but is
 superseded for the revised manuscript results.
 
+## Reviewer-response reproducibility release
+
+- GitHub Release v1.2.0: https://github.com/ABLE-Du/ETV6-RUNX1-biomarker-reanalysis/releases/tag/v1.2.0
+- Version DOI: https://doi.org/10.5281/zenodo.20709667
+- Concept DOI: https://doi.org/10.5281/zenodo.20697293
+
+Version 1.2.0 adds cohort characteristics, EFS event/censoring definitions,
+parser audit and sensitivity analyses, full TARGET screening-universe
+disclosure, and removal of the obsolete sample-size table. Earlier versions
+remain immutable but are superseded for the current revised manuscript results.
+
