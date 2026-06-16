@@ -20,6 +20,8 @@ reviewer-requested reporting and reproducibility materials.
 - Adds cohort baseline characteristics, EFS event/censoring definitions,
   parser public-example audit, parser sensitivity analyses, and the complete
   39-feature TARGET karyotype screening universe.
+- Adds journal-formatted supplementary tables with rounded display estimates
+  and explicit notation for non-estimable or infinite odds ratios.
 - Removes the obsolete sample-size scenario table from the current submission
   package.
 - Corrects MRD text parsing so values such as `<0.01` are treated as
