@@ -22,6 +22,8 @@ reviewer-requested reporting and reproducibility materials.
   39-feature TARGET karyotype screening universe.
 - Adds journal-formatted supplementary tables with rounded display estimates
   and explicit notation for non-estimable or infinite odds ratios.
+- Adds final figure proofreading updates for manuscript-ready cohort-flow,
+  high-score prevalence, and matched C-index figures.
 - Removes the obsolete sample-size scenario table from the current submission
   package.
 - Corrects MRD text parsing so values such as `<0.01` are treated as
