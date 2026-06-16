@@ -1,0 +1,4 @@
+cohort,evaluable_karyotype_n,abnormal_report_token_n_median_iqr,abnormal_report_token_n_excluding_t12_21_median_iqr,abnormal_unique_lesion_n_median_iqr,contains_t12_21_token_n,primary_high_score_n,high_score_excluding_t12_21_n,high_score_unique_lesions_n,changed_high_score_excluding_t12_21_n,changed_high_score_unique_lesions_n
+TARGET,144,2.0 (1.0-4.0),2.0 (1.0-4.0),2.0 (1.0-3.2),10,75,73,74,2,1
+Single-center historical,59,0.0 (0.0-0.0),0.0 (0.0-0.0),0.0 (0.0-0.0),0,2,2,2,0,0
+Single-center contemporary,35,0.0 (0.0-0.0),0.0 (0.0-0.0),0.0 (0.0-0.0),0,3,3,3,0,0

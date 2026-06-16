@@ -1,0 +1,10 @@
+sensitivity_definition,cohort,burden_variable,evaluable_n,high_score_n,high_score_prevalence,efs_n,efs_events,continuous_score_hr,continuous_score_ci_low,continuous_score_ci_high,continuous_score_p
+primary_report_tokens,TARGET,abnormal_report_tokens_ge3,144,75,0.5208333333333334,141.0,24.0,1.7214960786576465,1.1844007461787402,2.502150356114702,0.004413885291386098
+primary_report_tokens,Single-center historical,abnormal_report_tokens_ge3,59,2,0.03389830508474576,59.0,5.0,0.8913714576441615,0.02528934657352914,31.418094302774172,0.9495531770528967
+primary_report_tokens,Single-center contemporary,abnormal_report_tokens_ge3,35,3,0.08571428571428572,,,,,,
+exclude_t12_21_report_tokens,TARGET,abnormal_report_tokens_ge3_excluding_t12_21,144,73,0.5069444444444444,141.0,24.0,1.668196274336422,1.1472994718245195,2.4255905960493314,0.00737469138234581
+exclude_t12_21_report_tokens,Single-center historical,abnormal_report_tokens_ge3_excluding_t12_21,59,2,0.03389830508474576,59.0,5.0,0.8913714576441615,0.02528934657352914,31.418094302774172,0.9495531770528967
+exclude_t12_21_report_tokens,Single-center contemporary,abnormal_report_tokens_ge3_excluding_t12_21,35,3,0.08571428571428572,,,,,,
+unique_reported_lesions,TARGET,abnormal_unique_lesions_ge3,144,74,0.5138888888888888,141.0,24.0,1.7277782505542076,1.19105643088228,2.50636124845642,0.0039621278630056975
+unique_reported_lesions,Single-center historical,abnormal_unique_lesions_ge3,59,2,0.03389830508474576,59.0,5.0,0.8913714576441615,0.02528934657352914,31.418094302774172,0.9495531770528967
+unique_reported_lesions,Single-center contemporary,abnormal_unique_lesions_ge3,35,3,0.08571428571428572,,,,,,

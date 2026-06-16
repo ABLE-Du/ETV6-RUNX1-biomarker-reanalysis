@@ -1,0 +1,5 @@
+old_variable,harmonized_variable,n_compared,old_positive_n,harmonized_positive_n,agreement_n,percent_agreement
+old_gain16,gain16,59,0,0,59,1.0
+old_complex_karyotype,abnormal_report_tokens_ge3,59,2,2,57,0.9661016949152542
+old_del6q,del6q,59,1,1,59,1.0
+old_score_high,candidate_score_high,59,3,2,58,0.9830508474576272
