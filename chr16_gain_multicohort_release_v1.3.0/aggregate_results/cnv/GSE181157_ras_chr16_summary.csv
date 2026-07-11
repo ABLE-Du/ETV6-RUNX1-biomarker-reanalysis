@@ -1,0 +1,5 @@
+﻿subset,n,ras_pathway_mutation_n,chr16_gain_text_n,chr16_gain_and_ras_n,chr16_gain_without_ras_n,ras_without_chr16_gain_n
+all_173,173,51,6,5,1,46
+rna_predicted_ETV6_RUNX1_or_like,31,4,1,1,0,3
+fusion_ETV6_RUNX1,29,4,1,1,0,3
+conventional_ETV6_RUNX1,29,4,1,1,0,3

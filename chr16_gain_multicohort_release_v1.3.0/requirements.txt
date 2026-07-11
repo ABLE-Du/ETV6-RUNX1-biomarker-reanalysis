@@ -1,0 +1,9 @@
+pandas
+numpy
+scipy
+statsmodels
+lifelines
+matplotlib
+seaborn
+gseapy
+python-docx

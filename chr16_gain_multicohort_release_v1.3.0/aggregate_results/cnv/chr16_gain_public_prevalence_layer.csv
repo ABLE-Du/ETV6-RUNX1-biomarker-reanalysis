@@ -1,0 +1,7 @@
+﻿dataset,definition,chr16_gain,total,prevalence_percent,ci95_low_percent,ci95_high_percent,formatted
+TARGET diagnostic karyotype,curated karyotype +16/gain16,7,144,4.861111111111111,1.9764800579206685,9.759155392851774,7/144 (4.9%; 95% CI 2.0-9.8)
+Oksa/NOPHO CNVkit,broad/whole-chromosome chr16 gain in CNVkit segments,12,262,4.580152671755725,2.3887093511301654,7.863871216446533,12/262 (4.6%; 95% CI 2.4-7.9)
+GSE184692 aCGH ETV6-RUNX1,primary rule: chr16 mean log2 >=0.20 and >=50% chr16 probes >=0.25,4,136,2.9411764705882355,0.8070685007252573,7.359269873570612,4/136 (2.9%; 95% CI 0.8-7.4)
+GSE184692 aCGH ETV6-RUNX1,sensitive rule: chr16 mean log2 >=0.15 and >=50% chr16 probes >=0.20,4,136,2.9411764705882355,0.8070685007252573,7.359269873570612,4/136 (2.9%; 95% CI 0.8-7.4)
+GSE184692 aCGH ETV6-RUNX1,strict rule: chr16 mean log2 >=0.25 and >=50% chr16 probes >=0.30,4,136,2.9411764705882355,0.8070685007252573,7.359269873570612,4/136 (2.9%; 95% CI 0.8-7.4)
+Combined prevalence only,TARGET + Oksa/NOPHO + GSE184692 primary rule; not pooled for EFS/RAS,23,542,4.243542435424354,2.708749401012886,6.299575165284979,23/542 (4.2%; 95% CI 2.7-6.3)

@@ -1,0 +1,5 @@
+﻿dataset,data_type,evidence_tier,expression_samples,matched_metadata_samples,features_after_gene_level_processing,diagnostic_b_all_reference_n,etv6_runx1_or_like_n,chr16_gain_text_n,ras_mapk_mutation_n
+GSE181157,RNA-seq counts/log2CPM,same-patient chr16/RAS/expression,173,173,16728,136,31,6,51
+GSE227832,RNA-seq counts/log2CPM,external expression subtype reference,340,340,19228,301,49,0,0
+GSE228632,RNA-seq counts/log2CPM,external expression subtype reference,65,65,19251,60,35,0,0
+GSE87070,GPL570 microarray/symbol median,external expression subtype reference,654,654,21755,574,172,0,0
