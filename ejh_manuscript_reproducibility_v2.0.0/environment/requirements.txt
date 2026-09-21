@@ -1,0 +1,9 @@
+# Python environment used for the re-analyses
+# (permutation/bootstrap concordance, harmonisation checks, table and figure builds)
+# Interpreter: CPython 3.13.14 (Windows x64, MSC v.1944)
+numpy>=2.5.3
+pandas>=3.0.5
+scipy>=1.18.0
+statsmodels>=0.14.6
+matplotlib>=3.11.1
+openpyxl>=3.1.5

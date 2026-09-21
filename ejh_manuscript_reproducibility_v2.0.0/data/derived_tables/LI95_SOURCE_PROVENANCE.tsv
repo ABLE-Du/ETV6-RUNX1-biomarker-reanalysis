@@ -1,0 +1,27 @@
+﻿item	value
+article	Li Z, Yang JJ, et al. (2025) Nature Communications 16:1153 — "sub-cluster / C1-C2" study of ETV6::RUNX1-positive childhood ALL
+doi	10.1038/s41467-025-56229-7
+pmcid	PMC11779914
+retrieval_route	Europe PMC REST → /search (DOI lookup) → /PMC11779914/supplementaryFiles (ZIP bundle of publisher supplementary files)
+retrieval_url_1	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1038/s41467-025-56229-7%22&resultType=core&format=json
+retrieval_url_2	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11779914/supplementaryFiles
+retrieval_url_3	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11779914/fullTextXML
+download_date	2026-09-19
+bundle_filename	supp.zip
+bundle_bytes	10986691
+bundle_sha256	aff60799a8105d6708daef2a96cb7cb9
+file_used	41467_2025_56229_MOESM6_ESM.xlsx
+file_bytes	2505150
+file_sha256	f476e2a92198426592da7529544679e150d07b90e8f84db0a2ba1555236c4b4e
+sheet_used	Supp Figure 10
+sheet_content	Validation-cohort patient-level matrix: 95 patient columns (row 1) with C1/C2 PAM assignment (row 2), 50 gene rows (rows 4+), values = expression as supplied by the authors
+file_not_used	41467_2025_56229_MOESM4_ESM.xlsx (15,950 bytes) — Supplementary Data legend / index only
+file_not_used_2	41467_2025_56229_MOESM5_ESM.pdf, MOESM1-3 (Supplementary Information PDF) — prose and figures, not machine-readable matrices
+derived_output_1	LI95_expression_matrix.tsv (50 genes x 95 patients)
+derived_output_2	LI95_patient_labels.tsv (95 rows: patient_id, validation_subtype C1/C2, id_format)
+derived_output_3	LI95_gene_missingness.tsv (missingness per gene: 0 / 95 for all 50 genes)
+derived_output_4	LI95_GENE_HARMONISATION.tsv (50 genes: Oksa coefficient, Li194 effect, Li95 effect, direction flags, BH q)
+derived_output_5	LI95_VALIDATION_RESULTS.tsv (per-gene validation statistics)
+derived_output_6	COG552_pam_calls.tsv (552 patients: USI, UMAP_1, UMAP_2, PAM_C1, PAM_C2 posterior probabilities)
+fabrication_check	No value was digitised from any figure. No value was reconstructed from a plot. No third-party re-processing was used. Every number derives from the publisher-deposited Source Data workbook or from the publisher full text.
+prohibited_sources_used	none (no screenshot, no digitised plot, no third-party reconstruction)

@@ -1,0 +1,7 @@
+table_c1_col	table_c2_col	level	C1	C2
+C1	C2	below 5	28	24
+C1	C2	5 or above	33	10
+C1	C2	Figure 1f		
+C1	C2	WBC	C1	C2
+C1	C2	<50,000/μL	53	23
+C1	C2	≥50,000/μL	7	11

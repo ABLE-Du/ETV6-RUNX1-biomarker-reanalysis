@@ -1,0 +1,7 @@
+layer	cohort	n	role	endpoint	contribution	evidence_ceiling
+L1	Oksa et al. 2025 (Nordic)	362	Source of the adverse-response contrast	End-of-induction MRD: slow (>=0.1% at day 29) vs fast (0)	effect vector	published contrast, reused as published
+L1	Li et al. 2025 discovery	194	Source of the second adverse-response contrast	Unsupervised C1 (n=118) vs C2 (n=76); C1/C2 anchored on the published early-induction MRD variable	effect vector + drug screen + MRD variable	published contrast, reused as published
+L2	Li et al. 2025 validation	95	Out-of-sample molecular concordance	PAM-assigned C1 (n=61) vs C2 (n=34); 50 deposited genes	our re-analysis of deposited source data	out-of-sample concordance in independent patients
+L2	COG552	552	Published external context only	PAM C1 (n=341) vs C2 (n=211)	none - UMAP/PAM only, no expression or clinical deposited	published context only
+L3	Single-centre institutional cohort	115	Exploratory phenotypic support	Day-19 MRD >=0.1% (n=23 poor / 87 good of 110 evaluable)	CD34/CD38 immunophenotype, age, WBC, cytogenetics	exploratory phenotypic support
+L4	TARGET-ALL Phase 2	191	General paediatric B-ALL benchmark, relapse-enriched	Day-29 MRD: poor (>=0.01%) n=68 vs good (<0.01%) n=123; not interchangeable with any other layer	gene-matched sensitivity context	supportive benchmark, endpoint never pooled

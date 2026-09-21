@@ -1,0 +1,5 @@
+analysis	n	era_strata	era_adjustment	note
+CD34 vs D19 MRD	31	{'2020': np.int64(31)}	not applicable - single era (all 2020)	MRD reporting threshold constant within the flow-evaluable subset; no era stratification possible and none needed. Generalisability to other eras untested.
+CD38 vs D19 MRD	15	{'2020': np.int64(15)}	not applicable - single era (all 2020)	MRD reporting threshold constant within the flow-evaluable subset; no era stratification possible and none needed. Generalisability to other eras untested.
+age_ge_5y vs D19 MRD	110	4 eras (2005/2009 n=32, 2015 n=41, 2020 n=32, 2025 n=10)	Cochran-Mantel-Haenszel	unadjusted OR 0.88 (0.32-2.36); era-adjusted OR 0.81 (0.12-5.71)
+WBC_ge_50 vs D19 MRD	110	4 eras (2005/2009 n=32, 2015 n=41, 2020 n=32, 2025 n=10)	Cochran-Mantel-Haenszel	unadjusted OR 0.00 (nan-nan); era-adjusted OR 0.00 (nan-nan)

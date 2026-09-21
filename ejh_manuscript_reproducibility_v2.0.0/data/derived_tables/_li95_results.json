@@ -1,0 +1,112 @@
+{
+ "oksa_vs_li95_all50": {
+  "label": "Oksa EOI slow-vs-fast  vs  Li95 C1-vs-C2  (all 50)",
+  "n": 48,
+  "rho": 0.8180633955709943,
+  "concordance_pct": 95.83333333333334,
+  "null_rho_mean": 0.00034778006947459834,
+  "null_rho_sd": 0.14520728892372806,
+  "null_conc_mean": 66.998125,
+  "null_conc_sd": 4.795628854425945,
+  "p_rho": 4.999750012499375e-05,
+  "p_concordance": 4.999750012499375e-05,
+  "rho_ci": [
+   0.6467360861525947,
+   0.9214565840987224
+  ],
+  "conc_ci": [
+   89.58333333333334,
+   100.0
+  ]
+ },
+ "oksa_vs_li95_in219": {
+  "label": "Oksa vs Li95 restricted to the 24 genes in the primary 219",
+  "n": 24,
+  "rho": 0.6808695652173912,
+  "concordance_pct": 91.66666666666666,
+  "null_rho_mean": 0.00032917391304347843,
+  "null_rho_sd": 0.20883160789576596,
+  "null_conc_mean": 66.95291666666667,
+  "null_conc_sd": 6.878429158463109,
+  "p_rho": 0.000599970001499925,
+  "p_concordance": 0.0016499175041247937,
+  "rho_ci": [
+   0.3216311350716077,
+   0.8949223405519127
+  ],
+  "conc_ci": [
+   79.16666666666666,
+   100.0
+  ]
+ },
+ "li194_vs_li95": {
+  "label": "Li194 discovery  vs  Li95 validation  (genes present in both)",
+  "n": 25,
+  "rho": 0.8815384615384615,
+  "concordance_pct": 100.0,
+  "null_rho_mean": -0.001177846153846154,
+  "null_rho_sd": 0.20383471489312513,
+  "null_conc_mean": 63.5076,
+  "null_conc_sd": 7.36110396153842,
+  "p_rho": 4.999750012499375e-05,
+  "p_concordance": 9.99950002499875e-05,
+  "rho_ci": [
+   0.6525397470312357,
+   0.9759878389145739
+  ],
+  "conc_ci": [
+   100.0,
+   100.0
+  ]
+ },
+ "three_way": {
+  "n": 24,
+  "concordant_pct": 91.66666666666666
+ },
+ "tier1_in_li95": [
+  {
+   "gene": "ANPEP",
+   "oksa_coef": 1.75667323792258,
+   "oksa_fdr": 0.0279700731211348,
+   "li194_mean_diff": 1.1961847600772815,
+   "li95_mean_diff": 1.9376609006556231,
+   "li95_rank_biserial": 0.733847637415622,
+   "li95_bh_q": 1.1822993041547747e-08,
+   "oksa_li95_match": true
+  },
+  {
+   "gene": "GATA2",
+   "oksa_coef": 2.32883506759674,
+   "oksa_fdr": 0.0169894977061516,
+   "li194_mean_diff": 1.486028956439295,
+   "li95_mean_diff": 2.939434420320472,
+   "li95_rank_biserial": 0.832208293153327,
+   "li95_bh_q": 2.6791343855016655e-10,
+   "oksa_li95_match": true
+  },
+  {
+   "gene": "MPV17L",
+   "oksa_coef": 2.50556724099023,
+   "oksa_fdr": 0.027287359955321,
+   "li194_mean_diff": 1.2766113012151394,
+   "li95_mean_diff": 1.998441718509243,
+   "li95_rank_biserial": 0.6147540983606556,
+   "li95_bh_q": 1.0556164780781764e-06,
+   "oksa_li95_match": true
+  },
+  {
+   "gene": "SHE",
+   "oksa_coef": 3.56122355799133,
+   "oksa_fdr": 0.0048215689576729,
+   "li194_mean_diff": 1.3227219986761565,
+   "li95_mean_diff": 2.471091535240583,
+   "li95_rank_biserial": 0.6943105110896817,
+   "li95_bh_q": 5.814755569278415e-08,
+   "oksa_li95_match": true
+  }
+ ],
+ "li95_n": 95,
+ "li95_C1": 61,
+ "li95_C2": 34,
+ "li95_n_genes": 50
+}

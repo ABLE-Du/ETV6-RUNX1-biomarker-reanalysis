@@ -1,0 +1,7 @@
+analysis	role	statistic	n_genes	observed	empirical_p	tail	n_resamples	ci_low	ci_high	kendall_tau	n_positive_positive	n_negative_negative	n_discordant	oksali_contrasts
+primary_gene_identity_permutation	PRIMARY	spearman_rho	219	0.7937219372307975	4.999750012499375e-05	two_sided	20000			0.5910519039839136	99	91	29	Oksa EOI slow vs fast; Li C1 vs C2 (original labels)
+primary_gene_identity_permutation	PRIMARY	direction_concordance_pct	219	86.7579908675799	4.999750012499375e-05	upper	20000				99	91	29	Oksa EOI slow vs fast; Li C1 vs C2 (original labels)
+bootstrap_gene_resample	PRIMARY	spearman_rho	219	0.7937219372307975			10000	0.7346658579201492	0.8393570394537674		99	91	29	Oksa EOI slow vs fast; Li C1 vs C2 (original labels)
+bootstrap_gene_resample	PRIMARY	direction_concordance_pct	219	86.7579908675799			10000	82.1917808219178	90.8675799086758		99	91	29	Oksa EOI slow vs fast; Li C1 vs C2 (original labels)
+li_patient_label_permutation	SENSITIVITY_ONLY	spearman_rho	219	0.7937219372307975	9.999000099990002e-05	two_sided	10000				99	91	29	Oksa EOI slow vs fast; Li C1 vs C2 (original labels)
+li_patient_label_permutation	SENSITIVITY_ONLY	direction_concordance_pct	219	86.7579908675799	9.999000099990002e-05	upper	10000				99	91	29	Oksa EOI slow vs fast; Li C1 vs C2 (original labels)

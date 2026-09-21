@@ -1,0 +1,8 @@
+cohort	endpoint_id	timepoint_day	threshold	poor_definition	good_definition	intermediate_definition	n_total	n_evaluable	n_poor	comparability_class	may_be_pooled_with	source	caveat
+OKSA	OKSA_d15	15	10%	slow: MRD >= 10%	fast: MRD < 10%	not defined	362	305	35	non_poolable		Oksa Supp Table 1 (Mid-induction response)	day-15 label is 'unknown' for all 8 publicly linkable expression patients
+OKSA	OKSA_d29_EOI	29	0.1%	slow: MRD >= 0.1%	fast: MRD = 0 (undetectable/negative)	intermediate: 0 < MRD < 0.1%	362	360	85	non_poolable		Oksa Supp Table 1 (EOI response)	three-level ordinal; the primary contrast is slow vs fast
+OKSA	OKSA_d79_EOC	79	detectable	slow: MRD > 0%	fast: MRD = 0%	not defined	362	287	55	non_poolable		Oksa Supp Table 1 (EOC MRD status)	different timepoint and qualitative threshold
+LI	LI_early_induction	19_or_15_UNRESOLVED	0.01% (negative <0.01%)	MRD positive (>= 0.01%)	MRD negative (< 0.01%)	not defined	194	133		non_poolable		Li Supp workbook, column D19MRD	NAME COLLISION RISK: the supplementary column is D19MRD while the main text says day 15. Never equate with the institutional day-19 endpoint.
+LI	LI_EOI_day46	46_or_42_UNRESOLVED	0.01% (negative <0.01%)	MRD positive (>= 0.01%)	MRD negative (< 0.01%)	not defined	194	132		non_poolable		Li Supp workbook, column D46MRD	column name says day 46; main text says end of induction day 42
+LOCAL	LOCAL_d19	19	0.1%	day-19 MRD >= 0.1%	day-19 MRD < 0.1%	not defined	115	110	23	non_poolable		local_cohort/02_LOCAL_DEIDENTIFIED_COHORT.tsv	<0.1% is a reporting threshold, not documented MRD negativity
+TARGET	TARGET_d29	29	0.01%	day-29 MRD >= 0.01%	day-29 MRD < 0.01%	not defined	191	191	68	non_poolable		analysis/revision_01/cohorts/P_BALL.tsv	general B-ALL, not ETV6-specific; supportive role only

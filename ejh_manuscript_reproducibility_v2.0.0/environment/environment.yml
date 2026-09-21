@@ -1,0 +1,10 @@
+name: ejh-reanalysis
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base=4.6.1
+  - bioconductor-fgsea=1.38.0
+  - bioconductor-deseq2=1.52.0
+  - r-data.table=1.18.4
+  - r-msigdbr=26.1.1

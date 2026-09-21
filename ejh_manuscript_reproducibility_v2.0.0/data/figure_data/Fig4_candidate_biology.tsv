@@ -1,0 +1,8 @@
+gene	oksa_coefficient_slow_vs_fast	oksa_fdr	li_C1_minus_C2	li_fdr	target_class	target_assessability	singlecell_pct_cells	li95_effect	li95_bh_q	li95_direction_match	li95_status
+SHE	3.56122355799133	0.0048215689576729	1.3227219986761565		not_assessable_in_TARGET	not_assessable_in_TARGET	0.08	2.471091535240583	5.814755569278416e-08	True	measured
+GATA2	2.32883506759674	0.0169894977061516	1.486028956439295		shared_B_ALL_programme	assessable	2.13	2.939434420320472	2.679134385501665e-10	True	measured
+MID1	-2.1222100204494	0.0181309305021338	-0.9349174189686472		shared_B_ALL_programme	assessable	0.31				not_in_validation_panel
+MPV17L	2.50556724099023	0.027287359955321	1.2766113012151394		ETV6_enriched_candidate	assessable	0.74	1.998441718509243	1.0556164780781764e-06	True	measured
+ANPEP	1.75667323792258	0.0279700731211348	1.1961847600772817		shared_B_ALL_programme	assessable	2.8	1.9376609006556231	1.1822993041547747e-08	True	measured
+SERPINI2	-2.47228665768228	0.0380839983123758	-0.306522119165421		ETV6_enriched_candidate	assessable					not_in_validation_panel
+UCK2	1.54335455799237	0.0380839983123758	0.925676958942669		ETV6_enriched_candidate	assessable	1.96				not_in_validation_panel

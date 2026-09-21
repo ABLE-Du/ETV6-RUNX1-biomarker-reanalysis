@@ -1,0 +1,3 @@
+feature	n_evaluable	a	b	c	d	OR	CI_lo	CI_hi	P	zero_cell	CMH_OR_era_adjusted	CMH_CI_lo	CMH_CI_hi	expected_direction	observed_direction	pct_poor_exposed	pct_good_exposed	BH_q_2features
+age_ge_5y	110	7	29	16	58	0.875	0.32390807374024905	2.3637107626220395	1.0	False	0.8109260747859216	0.11508656610599499	5.713969240876039	more frequent in poor response	less frequent in poor	0.19444444444444445	0.21621621621621623	1.0
+WBC_ge_50	110	0	5	23	82	0.0			0.5817064436865163	True	0.0			less frequent in poor response	less frequent in poor	0.0	0.21904761904761905	1.0

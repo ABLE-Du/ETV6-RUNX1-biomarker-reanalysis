@@ -1,0 +1,23 @@
+R version 4.6.1 (2026-06-24 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows Server 2022 x64 (build 20348)
+
+Locale:
+  LC_COLLATE=C.UTF-8; LC_CTYPE=C.UTF-8; LC_MONETARY=C.UTF-8; LC_TIME=C.UTF-8
+
+attached base packages (per analysis script):
+  stats, graphics, grDevices, utils, datasets, methods, base
+
+other attached packages / versions used:
+  fgsea_1.38.0
+  DESeq2_1.52.0
+  data.table_1.18.4
+  msigdbr_26.1.1
+
+Random seeds (as set in the analysis scripts):
+  pathway fgsea: set.seed(20260918)          [scripts/23_b2_gsea.R]
+  TARGET DESeq2: set.seed(20260915)          [analysis/scripts/22_DE_MRD_BALL.R]
+  primary permutation/bootstrap: 20260918    [scripts/22_b1_concordance.py]
+  paired delta-rho bootstrap: 20260919       [analysis_enhancement/rho_difference_bootstrap.py]
+  gene-matched TARGET benchmark: bootstrap seed 3, permutation seed 4
+                                             [analysis_enhancement/gene_matched_sensitivity.py]
