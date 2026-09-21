@@ -4,6 +4,7 @@ title: "Cross-cohort convergence in ETV6::RUNX1-positive childhood ALL: reproduc
 type: software
 version: 2.0.0
 date-released: 2026-09-21
+doi: 10.5281/zenodo.22872050
 authors:
   - family-names: Du
     given-names: ChengKan
@@ -19,4 +20,5 @@ authors:
     given-names: Hong
     orcid: "https://orcid.org/0009-0004-8324-0639"
 repository-code: "https://github.com/ABLE-Du/ETV6-RUNX1-biomarker-reanalysis"
+repository-artifact: "https://doi.org/10.5281/zenodo.22872050"
 license: MIT

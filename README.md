@@ -60,3 +60,13 @@ upstream source data. Institutional scripts additionally require `EJH_INSTITUTIO
 Code is released under the MIT License. Non-identifiable derived tables and figure source data are
 released under CC BY 4.0. Third-party source data remain subject to their original terms and are not
 redistributed.
+
+## Archived release
+
+The EJH manuscript reproducibility deposit is frozen as GitHub release
+[`v2.0.0`](https://github.com/ABLE-Du/ETV6-RUNX1-biomarker-reanalysis/releases/tag/v2.0.0)
+and archived by Zenodo:
+
+- Version DOI: [10.5281/zenodo.22872050](https://doi.org/10.5281/zenodo.22872050)
+- Concept DOI: [10.5281/zenodo.20697293](https://doi.org/10.5281/zenodo.20697293)
+- Frozen code/data directory: [`ejh_manuscript_reproducibility_v2.0.0`](https://github.com/ABLE-Du/ETV6-RUNX1-biomarker-reanalysis/tree/v2.0.0/ejh_manuscript_reproducibility_v2.0.0)
